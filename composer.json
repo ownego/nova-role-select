@@ -1,0 +1,30 @@
+{
+    "name": "ownego/nova-role-select",
+    "description": "A Laravel Nova field.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0",
+        "spatie/laravel-permission": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ownego\\RoleSelect\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ownego\\RoleSelect\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
