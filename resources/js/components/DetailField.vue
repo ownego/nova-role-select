@@ -1,7 +1,7 @@
 <template>
   <panel-item :field="field">
-    <template slot="value">
-      <span class="whitespace-no-wrap px-2 py-1 rounded-full uppercase text-xs font-bold bg-success mr-1"
+    <template #value>
+      <span class="whitespace-no-wrap px-2 py-1 rounded-full uppercase text-xs font-bold bg-green-500 mr-1"
             v-for="role in roles"
             :key="role.id"
       >

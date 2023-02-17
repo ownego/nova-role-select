@@ -1,6 +1,6 @@
 <template>
   <default-field :field="field" :errors="errors">
-    <template slot="field">
+    <template #field>
       <checkbox-with-label
         class="mt-2"
         v-for="option in value"
